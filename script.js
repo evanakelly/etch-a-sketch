@@ -13,8 +13,8 @@ function makeBoard(boardSize) {
     let w = container.offsetWidth;
     let sq = document.querySelectorAll('div.square');
     sq.forEach((square) => {
-        square.style.width = ((w/boardSize));
-        square.style.height = ((w/boardSize));
+        square.style.width = ((w/boardSize)+'px');
+        square.style.height = ((w/boardSize)+'px');
         console.log(square.style.width);
         console.log(square.style.height);
     })
