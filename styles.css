@@ -1,0 +1,56 @@
+main {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 32em;
+}
+
+.square {
+    background-color: pink;
+    height: 2em;
+    width: 2em;
+}
+
+.on {
+    background-color: black;
+}
+
+.square:hover {
+    background-color: red;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+}
+
+button:focus {
+    outline: none;
+    border-width: 1px;
+    border-color: black;
+}
+
+button:hover {
+    font-weight: bold;
+    outline: none;
+}
+
+button:visited {
+    outline: none;
+}
