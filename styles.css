@@ -1,7 +1,12 @@
 main {
     font-family: sans-serif;
     text-align: center;
+    background-color: dodgerblue;
+    color: dodgerblue;
+}
 
+.body {
+    color: dodgerblue;
 }
 
 #container {
@@ -19,7 +24,7 @@ main {
 
 .on {
     background-color: black;
-}
+} 
 
 .square:hover {
     background-color: red;
